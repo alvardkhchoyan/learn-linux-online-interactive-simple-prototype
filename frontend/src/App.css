@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App-container {
+  background-color: #282c34;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items to the start (left) */
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 10px;
+}
+.resetContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ResetLink {
+  color: #61dafb;
+}
+
+.Points {
+  margin-left: auto; /* Move Points to the right */
+}
+
+.QuestionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:50px;
+  flex-grow: 1;
+}
+
+.FinishButton {
+  background-color: #00a4d1;
+  color: #282c34;
+  padding: 10px 20px;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.FinishButton:hover {
+  background-color: #0470ab;
+}
